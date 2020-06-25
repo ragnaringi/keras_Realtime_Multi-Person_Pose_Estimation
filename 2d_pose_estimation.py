@@ -3,6 +3,8 @@ import matplotlib
 import pylab as plt
 import numpy as np
 import util
+from config_reader import config_reader
+from model_load import model
 
 extensions_img = {".jpg", ".png", ".gif", ".bmp", ".jpeg"}
 
